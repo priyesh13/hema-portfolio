@@ -1,17 +1,6 @@
 'use strict';
 
-/**
- * @ngdoc function
- * @name hemaApp.controller:AboutCtrl
- * @description
- * # AboutCtrl
- * Controller of the hemaApp
- */
 angular.module('hemaApp')
-  .controller('AboutCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('aboutController', function ($scope) {
+    $scope.message = 'Look! I am an about page.';
   });

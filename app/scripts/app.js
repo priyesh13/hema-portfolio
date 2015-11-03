@@ -1,13 +1,5 @@
 'use strict';
 
-/**
- * @ngdoc overview
- * @name hemaApp
- * @description
- * # hemaApp
- *
- * Main module of the application.
- */
 angular
   .module('hemaApp', [
     'ngAnimate',
@@ -21,13 +13,18 @@ angular
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
-        controller: 'MainCtrl',
+        controller: 'mainController',
         controllerAs: 'main'
       })
       .when('/about', {
         templateUrl: 'views/about.html',
-        controller: 'AboutCtrl',
+        controller: 'aboutController',
         controllerAs: 'about'
+      })
+      .when('/contact', {
+        templateUrl: 'views/contact.html',
+        controller: 'contactController',
+        controllerAs: 'contact'
       })
       .otherwise({
         redirectTo: '/'
