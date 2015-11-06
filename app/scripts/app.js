@@ -19,6 +19,10 @@ angular
         templateUrl: 'views/about.html',
         controller: 'aboutController'
       })
+      .when('/client', {
+        templateUrl: 'views/client.html',
+        controller: 'clientController'
+      })
       .when('/contact', {
         templateUrl: 'views/contact.html',
         controller: 'contactController'

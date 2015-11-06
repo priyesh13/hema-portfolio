@@ -10,9 +10,10 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/font
   padding: 0.2em 0;
 }
 
-/* Space out content a bit */
 body {
+  color: white;
   padding: 0px;
+  background-image: url("../images/tweed.png");
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
