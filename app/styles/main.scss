@@ -3,6 +3,11 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/font
 @import "components-font-awesome/scss/font-awesome.scss";
 // endbower
 
+html {
+  height: 100%;
+  width: 100%;
+}
+
 body {
   color: white;
   padding: 0px;
